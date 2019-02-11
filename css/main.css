@@ -1737,6 +1737,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: table;
 }
 
+.img {
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .s-home .shadow-overlay {
     position: absolute;
     top: 0;
