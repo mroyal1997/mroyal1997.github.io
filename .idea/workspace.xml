@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="399c0603-d12e-484c-9efe-8e5f498b537b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bw-lava.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/contact-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/count-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ellek.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero-bg-old.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sample-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/testimonial-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wheel-1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wheel-2000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wheel-500.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="63" column="110" selection-start-line="63" selection-start-column="110" selection-end-line="63" selection-end-column="110" />
+            <state relative-caret-position="535">
+              <caret line="153" column="25" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -134,7 +122,8 @@
       <workItem from="1550091919885" duration="47000" />
       <workItem from="1550099227625" duration="21000" />
       <workItem from="1550707656512" duration="378000" />
-      <workItem from="1550818216967" duration="815000" />
+      <workItem from="1550818216967" duration="1037000" />
+      <workItem from="1552340623107" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="fixed bottom logo">
       <created>1549866265564</created>
@@ -154,13 +143,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6351000" />
+    <option name="totallyTimeSpent" value="6628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="76" y="23" width="1437" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26738352" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27096775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -209,8 +198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="63" column="110" selection-start-line="63" selection-start-column="110" selection-end-line="63" selection-end-column="110" />
+        <state relative-caret-position="535">
+          <caret line="153" column="25" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
