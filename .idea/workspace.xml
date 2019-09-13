@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="399c0603-d12e-484c-9efe-8e5f498b537b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/resume.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="149" column="25" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
+            <state relative-caret-position="286">
+              <caret line="183" column="119" selection-start-line="183" selection-start-column="115" selection-end-line="183" selection-end-column="119" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -28,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26910">
-              <caret line="1794" column="15" selection-start-line="1794" selection-start-column="15" selection-end-line="1794" selection-end-column="15" />
+            <state relative-caret-position="421">
+              <caret line="1396" column="32" selection-start-line="1396" selection-start-column="32" selection-end-line="1396" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -43,6 +45,8 @@
       <find>resume</find>
       <find>.jpg</find>
       <find>home</find>
+      <find>ffd300</find>
+      <find>.pdf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,6 +72,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,7 +89,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -125,6 +129,9 @@
       <workItem from="1550818216967" duration="1037000" />
       <workItem from="1552340623107" duration="81000" />
       <workItem from="1562694955759" duration="49000" />
+      <workItem from="1567998792329" duration="754000" />
+      <workItem from="1568024278626" duration="143000" />
+      <workItem from="1568399835372" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="fixed bottom logo">
       <created>1549866265564</created>
@@ -151,13 +158,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6703000" />
+    <option name="totallyTimeSpent" value="7632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="76" y="23" width="1437" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27455196" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28530467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -205,20 +212,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="149" column="25" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="421">
+          <caret line="1396" column="32" selection-start-line="1396" selection-start-column="32" selection-end-line="1396" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26910">
-          <caret line="1794" column="15" selection-start-line="1794" selection-start-column="15" selection-end-line="1794" selection-end-column="15" />
+        <state relative-caret-position="286">
+          <caret line="183" column="119" selection-start-line="183" selection-start-column="115" selection-end-line="183" selection-end-column="119" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
