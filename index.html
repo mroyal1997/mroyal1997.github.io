@@ -185,43 +185,81 @@
         <div class="row">
             <h2>Baus Playlists</h2>
             <p class="detail">
-                I created an iOS application with Swift that generates optimally-ordered playlists from one input song.
+                I created an iOS app with Swift that generates unique ordered playlists from one input song.<br><br>
+
+
                 I developed an AI to dynamically generate optimally ordered playlists in Θ(log(n)) runtime from an input song.
                 I Authored 100% of code from scratch, including APIs, libraries, and the machine learning model.
                 I architected a KD-Tree variant that optimized and maximized efficiency. In my variant of the KD-Tree,
                 I overcame the KD-Tree curse of dimensionality and improved runtime from Θ(n) to Θ(log(n)).<br><br>
+
+
                 I structured & optimized an original database of over 800,000 songs with 14 predictive song features and attributes, and
                 engineered a Google Cloud database allowing me to deploy a new model remotely without the need for an App Store update.
                 I also designed and implemented a referral-tracking system and complex app analytics to improve conversion and increase
                 the number of users. I also fully integrated my app with the Spotify API for a seamless user experience.
             </p>
             <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <img src="resources/baus/baus1.png" style="width:30%; margin: auto; background-color: #363636">
+                <!--<div class="mySlides">-->
+                    <!--<img src="resources/baus/bausbackground.png" style="width:30%; margin: 0 auto;">-->
+                <!--</div>-->
+                <!--<div class="mySlidesBackground fade">-->
+                    <!--<img src="resources/baus/iphoneblack.png" style="width:30%; margin: 0 auto;">-->
+                <!--</div>-->
+                <div class="mySlides-row1 fade">
+                    <img src="resources/baus/iphone1.png" style="width:30%; margin: 0 auto;">
                 </div>
-                <div class="mySlides fade">
-                    <img src="resources/baus/baus2.png" style="width:30%">
+                <div class="mySlides-row1 fade">
+                    <img src="resources/baus/iphone2.png" style="width:30%; margin: 0 auto;">
                 </div>
-                <div class="mySlides fade">
-                    <img src="resources/baus/baus3.png" style="width:30%">
+                <div class="mySlides-row1 fade">
+                    <img src="resources/baus/iphone3.png" style="width:30%; margin: 0 auto;">
                 </div>
-                <div class="mySlides fade">
-                    <img src="resources/baus/baus4.png" style="width:30%">
+                <div class="mySlides-row1 fade">
+                    <img src="resources/baus/iphone4.png" style="width:30%; margin: 0 auto;">
                 </div>
-                <div class="mySlides fade">
-                    <img src="resources/baus/baus5.png" style="width:30%">
+                <div class="mySlides-row1 fade">
+                    <img src="resources/baus/iphone5.png" style="width:30%; margin: 0 auto;">
                 </div>
-
-                <!-- Next and previous buttons -->
-                <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>-->
-                <!--<a class="next" onclick="plusSlides(1)">&#10095;</a>-->
             </div>
-            <!--<div style="text-align:center">-->
-                <!--<span class="dot" onclick="currentSlide(1)"></span>-->
-                <!--<span class="dot" onclick="currentSlide(2)"></span>-->
-                <!--<span class="dot" onclick="currentSlide(3)"></span>-->
-            <!--</div>-->
+        </div>
+        <div class="row">
+            <h2>Authentic8r Counterfeit Sneaker Detection</h2>
+            <p class="detail">
+                I created an iOS app with Swift that uses machine learning to detect counterfeit sneakers. It is currently on the <a href="https://apps.apple.com/us/app/authentic8r-by-altro-ai/id1397219993">iOS App Store</a>. <br><br>
 
+                I independently created a training dataset of over 10,000 images, each
+                being labeled as either counterfeit or authentic. I then built a custom Tensorflow machine learning model
+                and trained it on my input data. I was able to attain 85% accuracy in identifying counterfeit sneakers
+                with the model--higher than most humans are capable of.<br><br>
+
+                I launched Authentic8r in late 2018, and since launching, I have attained 1,300 total users. I have collected over 20,000
+                images from users, enabling me to improve the accuracy of the model further. There are currently 100 weekly active users
+                of Authentic8r.
+            </p>
+            <div class="slideshow-container">
+                <!--<div class="mySlides">-->
+                <!--<img src="resources/baus/bausbackground.png" style="width:30%; margin: 0 auto;">-->
+                <!--</div>-->
+                <!--<div class="mySlidesBackground fade">-->
+                <!--<img src="resources/baus/iphoneblack.png" style="width:30%; margin: 0 auto;">-->
+                <!--</div>-->
+                <div class="mySlides-row2 fade">
+                    <img src="resources/auth/iphone1.png" style="width:30%; margin: 0 auto;">
+                </div>
+                <div class="mySlides-row2 fade">
+                    <img src="resources/auth/iphone2.png" style="width:30%; margin: 0 auto;">
+                </div>
+                <div class="mySlides-row2 fade">
+                    <img src="resources/auth/iphone3.png" style="width:30%; margin: 0 auto;">
+                </div>
+                <div class="mySlides-row2 fade">
+                    <img src="resources/auth/iphone4.png" style="width:30%; margin: 0 auto;">
+                </div>
+                <div class="mySlides-row2 fade">
+                    <img src="resources/auth/iphone5.png" style="width:30%; margin: 0 auto;">
+                </div>
+            </div>
         </div>
 
     </section>
@@ -435,21 +473,62 @@
     <script src="js/main.js"></script>
 
     <script>
-        var slideIndex = 0;
-        showSlides();
+        // var slideIndex = 0;
+        showSlides(document.getElementsByClassName("mySlides-row1"), 0);
+        showSlides(document.getElementsByClassName("mySlides-row2"), 0);
+        // document.getElementsByClassName("mySlidesBackground")[0].style.display = "block";
 
-        function showSlides() {
+
+        // function sleep(ms) {
+        //     return new Promise(resolve => setTimeout(resolve, ms));
+        // }
+
+        async function showSlides(slides, index) {
+            print(index);
+            if (index === slides.length) {
+                index = 0
+            }
+
             var i;
-            var slides = document.getElementsByClassName("mySlides");
-
+            // var slides = document.getElementsByClassName("mySlides-row1");
+            // await sleep(5000)
             for (i = 0; i < slides.length; i++) {
                 slides[i].style.display = "none";
             }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}
-            slides[slideIndex-1].style.display = "block";
-            setTimeout(showSlides, 7500); // Change image every 2 seconds
+            // slideIndex++;
+            // if (slideIndex > slides.length) {slideIndex = 1}
+            slides[index].style.display = "block";
+            setTimeout(showSlides, 4000, slides, index + 1); // 7500 is good
         }
+        /*
+        * var slide1Index = 0;
+        var slide2Index = 0;
+        showSlides();
+        // document.getElementsByClassName("mySlidesBackground")[0].style.display = "block";
+
+
+        // function sleep(ms) {
+        //     return new Promise(resolve => setTimeout(resolve, ms));
+        // }
+
+        async function showSlides() {
+            var i;
+            var slides1 = document.getElementsByClassName("mySlides-row1");
+            var slides2 = document.getElementsByClassName("mySlides-row2");
+            // top slides
+            for (i = 0; i < slides1.length; i++) {
+                slides1[i].style.display = "none";
+            }
+            //2 slides
+            for (i = 0; i < slides2.length; i++) {
+                slides2[i].style.display = "none";
+            }
+            slide1Index++;
+            if (slide1Index > slides1.length) {slideIndex = 1}
+            slides1[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 4000); // 7500 is good
+        }
+        */
     </script>
 
 </body>
