@@ -1513,7 +1513,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-header.sticky {
     position: fixed;
     top: 0;
-    background-color: #363636 !important;
+    background-color: #070606 !important;
     opacity: 0;
     visibility: hidden;
     z-index: 600;
