@@ -72,12 +72,19 @@
 
             <div class="row home-content__main">
 
-                <h3>Overview</h3>
-
                 <h1>
-                    - Data Science @ UC Berkeley<br>
-                    - Machine Learning
+                    Hi, I'm Ellek Linton!
                 </h1>
+                <h2>
+                    Crafting Innovative Solutions with Passion & Precision
+                </h2>
+                <h3>
+                    Software Engineer @ PayPal
+                    <br/>
+                    <br/>
+                    Data Science @ UC Berkeley
+                </h3>
+
 
                 <div class="home-content__buttons">
                     <a href="#projects" class="smoothscroll btn btn--stroke">
@@ -108,7 +115,7 @@
             <li>
                 <a href="https://github.com/elleklinton"><i class="im im-github" aria-hidden="true"></i><span>GitHub</span></a>
             </li>
-        </ul> 
+        </ul>
         <!-- end home-social -->
 
     </section> <!-- end s-home -->
@@ -117,7 +124,7 @@
     <!-- about
     ================================================== -->
     <section id="about" class="s-about target-section">
-        
+
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full text-center">
                 <h3>About</h3>
@@ -125,48 +132,20 @@
                     <img src="images/ellek2.jpg" alt="Ellek Linton">
                 </div>
                 <p class="lead">
-                    I'm a graduate of UC Berkeley who studied Data Science, with a keen interest in Machine Learning and Big Data.
-                    I am currently a Software Engineer at PayPal.
-                    I have extensive experience building backend APIs, implementing & machine learning models, and creating iOS apps.
-                    Two of my iOS apps are currently on the iOS App Store: Authentic8r, and Baus Playlist Maker.
+                    Hey there! 👋
+                    <br/>
+                    I'm Ellek, and I've graduated from UC Berkeley, armed with a Data Science degree and a <a href="https://www.youtube.com/watch?v=ubchplluX9o">whole lotta love</a> for coding.
+                    At the crossroads of coding and creativity, that's where you'll find me.
+                    Whether at PayPal or on a personal project, I aim to create digital magic.
+                    Dive in, and let's have some fun!
                 </p>
             </div>
         </div>
-        <div class="row narrow about-content has-bottom-sep">
-            <div class="col-full text-center">
-                <h3>Languages</h3>
-
-                <ul class="skill-bars">
-                    <li>
-                        <div class="progress percent100"><span>100%</span></div>
-                        <strong>Python</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent100"><span>100%</span></div>
-                        <strong>iOS (Swift)</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent95"><span>95%</span></div>
-                        <strong>Java</strong>
-                    </li>
-
-                    <li>
-                        <div class="progress percent80"><span>80%</span></div>
-                        <strong>SQL</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent70"><span>70%</span></div>
-                        <strong>Scheme/Lisp</strong>
-                    </li>
-                </ul>
-            </div>
-        </div> <!-- end about-content -->
-
     </section> <!-- end about -->
 
     <!-- projects
     ================================================== -->
-    
+
     <section id="projects" class="s-projects target-section">
         <div class="row narrow section-intro">
             <div class="col-full text-center">
@@ -175,28 +154,58 @@
                 <!--<img src="images/ellek2.jpg" alt="Ellek Linton">-->
                 <!--</div>-->
                 <p class="lead">
-                    I have completed several personal software engineering projects.
-                    My goal was to solve everyday problems with data science techniques.
-                    I built the algorithms, architected the databases, designed the user interfaces, and built tests
-                    100% independently, full stack.
+                    In between professional commitments and the craziness of life, I love diving deep into personal projects.
+                    They’re my playground – spaces where I experiment, innovate, and get to just create something super cool!
+                    Below are some of the creations I'm particularly proud of. Let's take a journey through them.
             </div>
+        </div>
+        <div class="row" >
+            <h2>Pied Poker</h2>
+            <p class="detail">
+                Enter the world of "Pied Poker," a sophisticated poker probability engine I meticulously crafted from
+                scratch. Driven by the powerful Monte-Carlo simulations, it's not just another poker calculator — it's a
+                game-changer. The tool delves deep, calculating probabilities that would traditionally be computationally
+                intensive or downright impossible to derive in real time.
+                <br/>
+                <br/>
+                Yet, with optimized hand calculations and nimble simulation performance, "Pied Poker" delivers these
+                statistics at lightning speed, all within seconds. Beyond its capabilities, I took it a step further by
+                launching the engine as a <a href="https://pypi.org/project/pied-poker/">Python package on PyPI</a>. Now,
+                not only can I boast about its prowess, but developers and poker enthusiasts worldwide can
+                seamlessly integrate and benefit from it. With hundreds of downloads each month, this project stands as
+                a testament to the blend of my love for data, coding, and the intricate game of poker.
+
+                <br />
+                <br />
+                Check out the <a href="https://colab.research.google.com/drive/1sLgDZRGmRojkJUEcHwz9o1j9ZN2j4l0p?usp=sharing">Google Colab notebook</a>
+                I created and play around with Pied Poker for yourself!
+            </p>
+            <iframe src="https://giphy.com/embed/ZvwVc82tfqrVZs9hwk" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
         </div>
         <div class="row">
             <h2>Baus Playlists</h2>
             <p class="detail">
-                I created an iOS app with Swift that generates unique ordered playlists from one input song.<br><br>
+                Meet "Baus Playlist Maker," my brainchild that blends the realms of music and machine learning.
+                Have you ever heard a song and wished you had an entire playlist emanating the same vibe?
+                That’s the premise I started with. By engineering a unique machine learning model, this app takes in a
+                single "seed" song and, like a musical alchemist, curates a playlist echoing its essence.
 
+                <br />
+                <br />
 
-                I developed a machine learning model to dynamically generate optimally ordered playlists in Θ(log(n)) runtime from an input song.
-                I Authored 100% of code from scratch, including APIs, libraries, and the machine learning model.
-                I architected a KD-Tree variant that optimized and maximized efficiency. In my variant of the KD-Tree,
-                I overcame the KD-Tree curse of dimensionality and improved runtime from Θ(n) to Θ(log(n)).<br><br>
+                The challenges? Navigating the curse of dimensionality (with data spanning across 13 dimensions) and
+                optimizing the runtime. But with a blend of innovation and tenacity, I was able to leap over these
+                hurdles, taking the efficiency from Θ(n) to a slick Θ(log(n)). This allows users to create unique and
+                incredible playlists in a matter of a split-second.
 
+                <br />
+                <br />
 
-                I structured & optimized an original database of over 800,000 songs with 14 predictive song features and attributes, and
-                engineered a Google Cloud database allowing me to deploy a new model remotely without the need for an App Store update.
-                I also designed and implemented a referral-tracking system and complex app analytics to improve conversion and increase
-                the number of users. I also fully integrated my app with the Spotify API for a seamless user experience.
+                The app, now available on the iOS App Store, seamlessly integrates with Spotify API, ensuring users are
+                just a tap away from their next favorite playlist. With a database enriched with over 800,000 songs,
+                each featuring quantified attributes, "Baus Playlist Maker" isn’t just an app; it's a musical journey
+                tailored for every user.
             </p>
             <div class="slideshow-container">
                 <!--<div class="mySlides">-->
@@ -234,16 +243,28 @@
         <div class="row">
             <h2>Authentic8r Counterfeit Sneaker Detection</h2>
             <p class="detail">
-                I created an iOS app with Swift that uses machine learning to detect counterfeit sneakers. It is currently on the <a href="https://apps.apple.com/us/app/authentic8r-by-altro-ai/id1397219993">iOS App Store</a>. <br><br>
+                Navigating the bustling world of sneaker culture, I realized there's an undeniable need: distinguishing
+                the genuine from the counterfeit. The counterfeits had gotten so close to the real-thing, that even
+                experts were often unable to distinguish real from fake. That's when "Authentic8r" was born. It's not
+                just an app; it's a fusion of my sneaker passion with cutting-edge tech. Delving deep into the intricate
+                details of sneaker designs, I built a robust convolutional neural network using Tensorflow to
+                meticulously analyze and predict the authenticity of a sneaker.
 
-                I independently created a training dataset of over 10,000 images, each
-                being labeled as either counterfeit or authentic. I then built a custom Tensorflow machine learning model
-                and trained it on my input data. I was able to attain 85% accuracy in identifying counterfeit sneakers
-                with the model--higher than most humans are capable of.<br><br>
+                <br />
+                <br />
 
-                I launched Authentic8r in late 2018, and since launching, I have attained 1,300 total users. I have collected over 20,000
-                images from users, enabling me to improve the accuracy of the model further. There are currently 100 weekly active users
-                of Authentic8r.
+                Manually gathering and labeling a whopping 12,000 images was not the most fun I've ever had, but it
+                allowed me to train my model and achieve an impressive 85% validation accuracy. This might sound all
+                tech, but the real magic? Giving users an instant verdict on their sneakers' legitimacy right from their
+                phones. With thousands of verified users and a continuous influx of images aiding model refinement,
+                "Authentic8r" stands as a testament to the potential of machine learning in the everyday world.
+
+                <br />
+                <br />
+
+                Since launching the "Authentic8r" app in 2018, I have attainer over 2,000 users and have collected over
+                20,000 additional self-labeled images from users, enabling me to improve the accuracy of the model further.
+                "Authentic8r" is available on the <a href="https://apps.apple.com/us/app/authentic8r-by-altro-ai/id1397219993">iOS App Store</a>.
             </p>
             <div class="slideshow-container">
                 <!--<div class="mySlides">-->
@@ -282,6 +303,35 @@
 
         <div class="col-full section-intro text-center">
             <h3>Resume</h3>
+            <div class="col-full text-center">
+                <ul class="skill-bars">
+                    <li>
+                        <div class="progress percent100"><span>100%</span></div>
+                        <strong>Python</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent100"><span>100%</span></div>
+                        <strong>iOS (Swift)</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent100"><span>100%</span></div>
+                        <strong>Java</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent100"><span>100%</span></div>
+                        <strong>Typescript</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent100"><span>100%</span></div>
+                        <strong>React</strong>
+                    </li>
+
+                    <li>
+                        <div class="progress percent100"><span>100%</span></div>
+                        <strong>SQL</strong>
+                    </li>
+                </ul>
+            </div>
         </div>
         <p align="center" style="padding-bottom: 6rem;">
             <iframe id="resume-pdf" title="Ellek Linton Resume" src="resources/resume.pdf" frameborder="0" scrolling="auto" height="1125" width="850" align="middle"></iframe>
@@ -359,7 +409,7 @@
                 </p>
 
                 <h4 class="h06">Email</h4>
-                <p>Email: <a href="mailto:ellek@baus.cc">ellek@baus.cc</a><br>
+                <p>Email: <a href="mailto:ellek@ellek.dev">ellek@ellek.dev</a><br>
                 </p>
             </div>
 
@@ -408,7 +458,7 @@
                         <span>Github</span>
                     </a></li>
                 </ul>
-                    
+
             </div>
         </div>
 
@@ -417,7 +467,7 @@
             <div class="col-twelve">
                 <div class="copyright">
                     <span>© Copyright Ellek Linton 2019</span>
-                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
+                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
                 </div>
 
                 <div class="go-top">
